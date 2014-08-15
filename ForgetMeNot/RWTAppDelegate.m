@@ -61,20 +61,20 @@
 - (void)locationManager:(CLLocationManager *)manager didExitRegion:(CLRegion *)region {
     if ([region isKindOfClass:[CLBeaconRegion class]]) {
         UILocalNotification *notification = [[UILocalNotification alloc] init];
-        notification.alertBody = @"Thanks for visiting Juan Valdez.";
+        notification.alertBody = @"Thanks for visiting the cafe.";
         notification.soundName = @"Default";
         [[UIApplication sharedApplication] presentLocalNotificationNow:notification];
-        NSLog(@"User exited region.");
+        NSLog(@"USER LEFT REGION.");
     }
 }
 
 - (void)locationManager:(CLLocationManager *)manager didEnterRegion:(CLRegion *)region {
     if ([region isKindOfClass:[CLBeaconRegion class]]) {
         UILocalNotification *notification = [[UILocalNotification alloc] init];
-        notification.alertBody = @"Welcome to Juan Valdez!";
+        notification.alertBody = @"Welcome to the cafe!";
         notification.soundName = @"Default";
         [[UIApplication sharedApplication] presentLocalNotificationNow:notification];
-        NSLog(@"User entered region.");
+        NSLog(@"USER ENTERED REGION.");
     }
 }
 

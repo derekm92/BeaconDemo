@@ -30,7 +30,7 @@ NSString * const kRWTStoredItemsKey = @"storedItems";
 
     self.locationManager = [[CLLocationManager alloc] init];
     self.locationManager.delegate = self;
-
+    NSLog(@"App has started.");
     [self loadItems];
 }
 

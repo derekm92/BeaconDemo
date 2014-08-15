@@ -40,15 +40,19 @@
 - (NSString *)nameForProximity:(CLProximity)proximity {
     switch (proximity) {
         case CLProximityUnknown:
+            NSLog(@"User location: unknown.");
             return @"Unknown";
             break;
         case CLProximityImmediate:
+            NSLog(@"User location: immediate.");
             return @"Immediate";
             break;
         case CLProximityNear:
+            NSLog(@"User location: near.");
             return @"Near";
             break;
         case CLProximityFar:
+            NSLog(@"User location: far.");
             return @"Far";
             break;
     }

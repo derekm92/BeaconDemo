@@ -105,7 +105,7 @@
             </objects>
             <point key="canvasLocation" x="1482" y="110"/>
         </scene>
-        <!--Add Item View Controller - Add Item-->
+        <!--Add Item View Controller - Add Beacon-->
         <scene sceneID="HMW-1F-V7T">
             <objects>
                 <tableViewController id="xyd-Mo-RNz" customClass="RWTAddItemViewController" sceneMemberID="viewController">
@@ -178,7 +178,7 @@
                             <outlet property="delegate" destination="xyd-Mo-RNz" id="ptW-bE-AWo"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Add Item" id="0WP-Jv-Ua6">
+                    <navigationItem key="navigationItem" title="Add Beacon" id="0WP-Jv-Ua6">
                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="jqD-EO-AWP">
                             <connections>
                                 <action selector="cancel:" destination="xyd-Mo-RNz" id="Qna-4J-FfX"/>
