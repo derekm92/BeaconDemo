@@ -56,6 +56,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Beacons" id="dlF-WY-14h">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="5PF-P4-oY3">
+                            <color key="tintColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
                                 <segue destination="Awj-Xb-WMP" kind="modal" identifier="Add" id="IEC-OM-Lee"/>
                             </connections>
@@ -180,11 +181,13 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Add Beacon" id="0WP-Jv-Ua6">
                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="jqD-EO-AWP">
+                            <color key="tintColor" red="0.96862751250000001" green="0.84705889229999998" blue="0.36078432199999999" alpha="1" colorSpace="deviceRGB"/>
                             <connections>
                                 <action selector="cancel:" destination="xyd-Mo-RNz" id="Qna-4J-FfX"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="q6u-Ry-tvD">
+                            <color key="tintColor" red="0.96862751250000001" green="0.84705889229999998" blue="0.36078432199999999" alpha="1" colorSpace="deviceRGB"/>
                             <connections>
                                 <action selector="save:" destination="xyd-Mo-RNz" id="hzf-Yj-vmS"/>
                             </connections>

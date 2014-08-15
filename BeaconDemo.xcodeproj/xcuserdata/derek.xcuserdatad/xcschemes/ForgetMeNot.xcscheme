@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "83EC54AA1898DD3600EA1765"
-               BuildableName = "ForgetMeNot.app"
+               BuildableName = "BeaconDemo.app"
                BlueprintName = "BeaconDemo"
                ReferencedContainer = "container:BeaconDemo.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "83EC54CB1898DD3600EA1765"
-               BuildableName = "ForgetMeNotTests.xctest"
+               BuildableName = "BeaconDemoTests.xctest"
                BlueprintName = "BeaconDemoTests"
                ReferencedContainer = "container:BeaconDemo.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "83EC54AA1898DD3600EA1765"
-            BuildableName = "ForgetMeNot.app"
+            BuildableName = "BeaconDemo.app"
             BlueprintName = "BeaconDemo"
             ReferencedContainer = "container:BeaconDemo.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "83EC54AA1898DD3600EA1765"
-            BuildableName = "ForgetMeNot.app"
+            BuildableName = "BeaconDemo.app"
             BlueprintName = "BeaconDemo"
             ReferencedContainer = "container:BeaconDemo.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "83EC54AA1898DD3600EA1765"
-            BuildableName = "ForgetMeNot.app"
+            BuildableName = "BeaconDemo.app"
             BlueprintName = "BeaconDemo"
             ReferencedContainer = "container:BeaconDemo.xcodeproj">
          </BuildableReference>

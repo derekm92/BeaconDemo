@@ -23,6 +23,8 @@
     // Override point for customization after application launch.
     self.locationManager = [[CLLocationManager alloc] init];
     self.locationManager.delegate = self;
+    [[UINavigationBar appearance] setBarTintColor:[UIColor blackColor]];
+    [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor]}];
     
     [[UIApplication sharedApplication] cancelAllLocalNotifications];
     
